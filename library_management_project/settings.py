@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-mu&*twa-*0jfr__x(#eggtk34gp)tjc^(x6oqeub+ol$bkf($h
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["django-library-management-system-ga48.onrender.com"]
 
 
 # Application definition
