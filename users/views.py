@@ -69,7 +69,7 @@ class VerifyEmailView(APIView):
             if default_token_generator.check_token(user, token):
                 user.is_active = True
                 user.save()
-                return HttpResponseRedirect("http://localhost:5173/login")  # Redirect to frontend login page
+                return HttpResponseRedirect("https://gregarious-zuccutto-6870ed.netlify.app/login")  # Redirect to frontend login page
 
             return Response({"error": "Invalid token!"}, status=status.HTTP_400_BAD_REQUEST)
         except Exception as e:
