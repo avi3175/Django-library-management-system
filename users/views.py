@@ -28,7 +28,7 @@ class RegisterView(APIView):
             send_mail(
                 subject="Verify your email",
                 message=f"Click the link to verify your account: {verification_link}",
-                from_email="noreply@library.com",
+                from_email="avishahriar@gmail.com",
                 recipient_list=[user.email],
             )
 
